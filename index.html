@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <h1 id="ada-cash">ADA Cash</h1>
+  <p>A Distributed App (DApp) on the Cardano blockchain to convert digital ADA to paper ADA.</p>
+
+  <h2 id="use-cases">Use Cases</h2>
+  <ol>
+    <li>Use cryptocurrency without Internet connection or a Mobile device.</li>
+    <li>No fee offline transactions.</li>
+    <li>Simple and robust counterfeit prevention method.</li>
+    <li>Promotes the “currency” aspect of a cryptocurrency.</li>
+  </ol>
+
+  <h2 id="types-of-users">Types of Users</h2>
+  <ol>
+    <li>Sender / Depositor / Minter</li>
+    <li>Recipient / Receiver</li>
+    <li>Redeemer / Burner</li>
+  </ol>
+
+  <h2 id="how-it-works">How it works?</h2>
+  <ul>
+    <li>The user inputs the amount to be converted to cash.</li>
+    <li>The user selects the denominations they want in lieu of that amount.</li>
+    <li>The user then transfers the given amount of funds from their wallet to the smart contract.</li>
+    <li>The smart contract issues redeemable bills with unique hashes.</li>
+    <li>The hashes on those bills encode the amount of the bill.</li>
+  </ul>
+
+  <h2 id="smart-contract-endpoints">Smart Contract Endpoints</h2>
+  <h3 id="mint">Mint</h3>
+  <p>The user deposits fund to the smart contract and selects denominations to be issued.</p>
+  <h3 id="redeemable">Redeemable</h3>
+  <p>The user uses the mobile app to confirm that the note/bill is redeemable. This action does not redeem the denoted
+    value from the smart contract.</p>
+  <h3 id="redeem">Redeem</h3>
+  <p>The user uses the mobile app to scan the notes hashes to redeem funds from the smart contract to their own
+    wallet.</p>
+
+  <h2 id="technology-stack">Technology Stack</h2>
+  <ol>
+    <li>Aiken (Smart contract Language)</li>
+    <li>Lucid (Off Chain Language)</li>
+  </ol>
+
+</body>
+
+</html>
